@@ -52,7 +52,9 @@ class String
           "count: #{count}"
         end
       end
-    else 0
+    else 
+      puts "else2"
+      0
     end
   end
 end
