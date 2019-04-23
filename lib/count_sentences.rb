@@ -29,7 +29,7 @@ class String
 
   def count_sentences
     if /.?!/.match(self)
-      puts "match: #{/.?!/.match(self)}"
+      self.split(" ")
     else 0
     end
   end
