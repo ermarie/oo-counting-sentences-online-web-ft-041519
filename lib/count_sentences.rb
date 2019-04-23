@@ -32,7 +32,9 @@ class String
     split_arr = []
     if /.?!/.match(self)
       split_arr = self.split(" ")
-
+      split_arr.each do |word|
+        if word.include?()
+      end
     else 0
     end
   end
