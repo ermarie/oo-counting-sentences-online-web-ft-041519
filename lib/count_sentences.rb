@@ -28,8 +28,11 @@ class String
   end
 
   def count_sentences
+    count = 0
+    split_arr = []
     if /.?!/.match(self)
       puts" split: #{self.split(" ")}"
+      
     else 0
     end
   end
