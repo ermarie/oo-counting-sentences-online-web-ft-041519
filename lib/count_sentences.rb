@@ -33,6 +33,7 @@ class String
     if /.?!/.match(self)
       puts "match"
       split_arr = self.split(" ")
+      puts "arr: #{split_arr}"
       split_arr.each do |word|
         puts "each"
         if word.include?(".")
