@@ -31,7 +31,7 @@ class String
     count = 0
     split_arr = []
     if /.?!/.match(self)
-      puts" split: #{self.split(" ")}"
+      split_arr = self.split(" ")
 
     else 0
     end
