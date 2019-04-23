@@ -34,22 +34,16 @@ class String
       split_arr = self.split(" ")
       split_arr.each do |word|
         if word.include?(".")
-          puts count
           count += 1
-          puts "count: #{count}"
         elsif word.include?("?")
           count += 1
-          puts "count: #{count}"
         elsif word.include?("!")
           count += 1
-          puts "count: #{count}"
         else
-          puts "else"
-          puts "count: #{count}"
         end
       end
+      count
     else
-      puts "else2"
       0
     end
   end
