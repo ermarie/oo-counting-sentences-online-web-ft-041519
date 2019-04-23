@@ -10,6 +10,7 @@ class String
   end
 
   def question?
+    binding.pry
     if self.end_with?("?")
     else
       false
