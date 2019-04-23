@@ -31,15 +31,25 @@ class String
     count = 0
     split_arr = []
     if /.?!/.match(self)
+      puts "match"
       split_arr = self.split(" ")
       split_arr.each do |word|
+        puts "each"
         if word.include?(".")
+          puts "if"
           count =+ 1
+          "count: #{count}"
         elsif word.include?("?")
+          puts "elsif1"
           count += 1
+          "count: #{count}"
         elsif word. include?("!")
+          puts "elsif2"
           count += 1
+          "count: #{count}"
         else
+          puts "else"
+          "count: #{count}"
         end
       end
     else 0
