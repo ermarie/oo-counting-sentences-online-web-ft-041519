@@ -36,6 +36,7 @@ class String
         puts "each"
         if word.include?(".")
           puts "if"
+          puts count
           count += 1
           "count: #{count}"
         elsif word.include?("?")
