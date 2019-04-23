@@ -33,7 +33,14 @@ class String
     if /.?!/.match(self)
       split_arr = self.split(" ")
       split_arr.each do |word|
-        if word.include?()
+        if word.include?(".")
+          count =+ 1
+        elsif word.include?("?")
+          count += 1
+        elsif word. include?("!")
+          count += 1
+        else
+        end
       end
     else 0
     end
