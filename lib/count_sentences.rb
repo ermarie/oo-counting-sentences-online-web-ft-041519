@@ -38,18 +38,18 @@ class String
           puts "if"
           puts count
           count += 1
-          "count: #{count}"
+          puts "count: #{count}"
         elsif word.include?("?")
           puts "elsif1"
           count += 1
-          "count: #{count}"
+          puts "count: #{count}"
         elsif word. include?("!")
           puts "elsif2"
           count += 1
-          "count: #{count}"
+          puts "count: #{count}"
         else
           puts "else"
-          "count: #{count}"
+          puts "count: #{count}"
         end
       end
     else
